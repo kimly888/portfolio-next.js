@@ -1,5 +1,5 @@
 import { Raleway } from "@next/font/google";
-import { Layout } from "@/components";
+import Layout from "@/components/layouts/Layout";
 import { StateContext } from "@/context/StateContext";
 
 import "@/styles/globals.css";

@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "../modules/Footer";
+import Navbar from "../modules/Navbar";
 
 const Layout = ({ children }) => {
   return (
