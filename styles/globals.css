@@ -10,9 +10,9 @@
   --primary-color: #ffcd42;
   --secondary-color: #ffd35c;
   --bg-primary: #f5f5f5;
-  --text-color: #222222;
+  --text-color: #181818;
   --text-color-two: #f5f5f5;
-  --bg-secondary: #000000;
+  --bg-secondary: #181818;
   --card-background: #f4f4f4;
   --bg-secondary-two: #111111;
 
@@ -210,7 +210,7 @@ body {
 
 /* Footer */
 #footer {
-  background: #111111;
+  background: --bg-secondary-two;
 }
 
 #footer .container {
@@ -218,14 +218,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: var(--text-color);
   min-height: 160px;
   text-align: center;
 }
 
 #footer a {
   font-size: 0.8rem;
-  color: #fff;
+  color: var(--text-color);
 }
 
 #footer a:hover {
@@ -307,7 +307,7 @@ body {
   }
 
   .hamburger.active {
-    border: 1px dotted gray;
+    border: 1px dotted #808080;
   }
 
   .hamburger.active .bar:nth-child(2) {
