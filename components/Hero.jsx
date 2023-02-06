@@ -10,7 +10,7 @@ const Hero = () => {
         height={150}
         alt="profile picture"
       />
-      <h1>Hi I'm Franklin</h1>
+      <h1>Hi I'm Jessica</h1>
 
       <div className="content-text">
         <h2>Building digital</h2>
