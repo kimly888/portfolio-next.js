@@ -43,15 +43,33 @@ h2::selection {
   background: var(--secondary-color);
 }
 
+.theme-switch {
+  position: relative;
+}
+
 /* Dark mode toggle */
+
+.theme-switch input[type="checkbox"]:focus + .toggle-icons {
+  border: 1px solid var(--text-color);
+  border-radius: 20px;
+}
+
 #switch {
-  display: none;
+  position: absolute;
+  opacity: 0;
+}
+
+#switch:checked + .toggle-icons {
+  border: 1px solid var(--text-color);
+  border-radius: 20px;
+  border-radius: 20px;
 }
 
 .toggle-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 5px;
   cursor: pointer;
 }
 
@@ -121,7 +139,8 @@ h2::selection {
 }
 
 .card a {
-  color: #ffffff;
+  color: var(--text-color);
+  border-radius: 20px;
   transition: 0.25s ease-in-out;
   font-size: 1.1rem;
   margin-right: 0.3rem;
@@ -148,5 +167,9 @@ h2::selection {
 
   .content-text h2 {
     font-size: 2.5rem;
+  }
+
+  .toggle-icons {
+    width: 30%;
   }
 }
