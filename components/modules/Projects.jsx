@@ -11,9 +11,10 @@ const Projects = () => {
       </div>
 
       <article className="project">
-        {projectData?.map((project) => {
+        {projectData?.map((project, index) => {
           return (
             <ProjectCard
+              key={index}
               path={project.path}
               background={project.background}
               title={project.title}
