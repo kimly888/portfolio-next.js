@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
     <div id="footer">
-      <div class="container">
+      <div className="container">
         <a href="mailto:communitypro47@gmail.com">communitypro47@gmail.com</a>
         {/* <!-- Social links --> */}
-        <div class="social">
+        <div className="social">
           <a href="#" target="_blank">
             <img src="/facebook-icon.svg" alt="Facebook" />
           </a>
@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
         </div>
         {/* <!-- Attribution --> */}
-        <div class="attribution">
+        <div className="attribution">
           <a
             href="https://github.com/CommunityPro/portfolio-html"
             target="_blank"
