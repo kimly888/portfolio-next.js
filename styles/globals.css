@@ -120,6 +120,8 @@ body {
 .hamburger {
   margin-bottom: 0.1rem;
   display: none;
+  background-color: transparent;
+  border: none;
 }
 
 .bar {

@@ -4,14 +4,14 @@ const Hamburger = ({ handleMobileMenu }) => {
   const { isActive } = useStateContext();
 
   return (
-    <div
+    <button
       className={`hamburger ${isActive && "active"}`}
       onClick={handleMobileMenu}
     >
       <span className="bar"></span>
       <span className="bar"></span>
       <span className="bar"></span>
-    </div>
+    </button>
   );
 };
 
