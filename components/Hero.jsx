@@ -1,7 +1,15 @@
+import Image from "next/image";
+
 const Hero = () => {
   return (
     <section className="header-container">
-      <img className="profile-image" src="/profile-image.svg" alt="" />
+      <Image
+        className="profile-image"
+        src="/profile-image.svg"
+        width={150}
+        height={150}
+        alt="profile picture"
+      />
       <h1>Hi I'm Franklin</h1>
 
       <div className="content-text">

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Footer = () => {
   return (
     <div id="footer">
@@ -6,19 +8,39 @@ const Footer = () => {
         {/* <!-- Social links --> */}
         <div className="social">
           <a href="#" target="_blank">
-            <img src="/facebook-icon.svg" alt="Facebook" />
+            <Image
+              src="/facebook-icon.svg"
+              width={20}
+              height={20}
+              alt="Facebook"
+            />
           </a>
           <a href="#" target="_blank">
-            <img src="/twitter-icon.svg" alt="Twitter" />
+            <Image
+              src="/twitter-icon.svg"
+              width={20}
+              height={20}
+              alt="Twitter"
+            />
           </a>
           <a href="#" target="_blank">
-            <img src="/linkedin-icon.svg" alt="Linkedin" />
+            <Image
+              src="/linkedin-icon.svg"
+              width={20}
+              height={20}
+              alt="Linkedin"
+            />
           </a>
           <a href="#" target="_blank">
-            <img src="/github-icon.svg" alt="GitHub" />
+            <Image src="/github-icon.svg" width={20} height={20} alt="GitHub" />
           </a>
           <a href="#" target="_blank">
-            <img src="/hashnode-icon.svg" alt="Hashnode" />
+            <Image
+              src="/hashnode-icon.svg"
+              width={20}
+              height={20}
+              alt="Hashnode"
+            />
           </a>
         </div>
         {/* <!-- Attribution --> */}
@@ -28,10 +50,11 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Image
               src="https://user-images.githubusercontent.com/62628408/157202263-9174da24-b19a-4017-9b7c-a1d26ae8f014.svg"
+              width={150}
+              height={20}
               alt="attribution"
-              width="150px"
             />
           </a>
         </div>

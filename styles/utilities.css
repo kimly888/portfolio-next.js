@@ -61,7 +61,14 @@ h2::selection {
 }
 
 .moon {
+  width: auto;
+  height: auto;
   transform: rotate(10deg);
+}
+
+.sun {
+  width: auto;
+  height: auto;
 }
 
 #switch:checked + .toggle-icons .moon {

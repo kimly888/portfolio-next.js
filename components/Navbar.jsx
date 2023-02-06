@@ -1,8 +1,8 @@
+import Image from "next/image";
 import { useStateContext } from "@/context/StateContext";
 
 const Navbar = () => {
-  const { isActive, setIsActive, isDarkMode, setIsDarkMode } =
-    useStateContext();
+  const { isActive, setIsActive } = useStateContext();
 
   const handleMobileMenu = () => {
     setIsActive((prev) => !prev);
@@ -26,9 +26,10 @@ const Navbar = () => {
           {/* <!-- Logo --> */}
           <h1 id="logo">
             <a href="https://github.com/CommunityPro/portfolio-html">
-              <img src="/logo.png" alt="Your Logo" />
+              <Image src="/logo.png" width={25} height={25} alt="Site Logo" />
             </a>
           </h1>
+
           {/* <!-- Navbar links --> */}
           <ul className={`nav-menu ${isActive && "active"}`}>
             <li>
@@ -68,8 +69,20 @@ const Navbar = () => {
                 onClick={(e) => handleTheme(e)}
               />
               <label className="toggle-icons" htmlFor="switch">
-                <img className="moon" src="/moon.svg" />
-                <img className="sun" src="/sun.svg" />
+                <Image
+                  className="moon"
+                  src="/moon.svg"
+                  width={32}
+                  height={32}
+                  alt="moon icon to toggle dark mode"
+                />
+                <Image
+                  className="sun"
+                  src="/sun.svg"
+                  width={32}
+                  height={32}
+                  alt="sun icon to toggle dark mode"
+                />
               </label>
             </div>
           </ul>
