@@ -49,19 +49,18 @@ h2::selection {
 
 /* Dark mode toggle */
 
-.theme-switch input[type="checkbox"]:focus + .toggle-icons {
-  border: 1px solid var(--text-color);
-  border-radius: 20px;
-}
-
 #switch {
   position: absolute;
   opacity: 0;
 }
 
-#switch:checked + .toggle-icons {
+#switch:focus + .toggle-icons {
   border: 1px solid var(--text-color);
   border-radius: 20px;
+}
+
+#switch:checked + .toggle-icons {
+  border: 1px solid var(--text-color);
   border-radius: 20px;
 }
 
