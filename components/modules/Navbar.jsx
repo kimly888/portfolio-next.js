@@ -17,6 +17,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="container">
           <Logo />
+          <Hamburger handleMobileMenu={handleMobileMenu} />
 
           {/* <!-- Navbar links --> */}
           <ul className={`nav-menu ${isActive && "active"}`}>
@@ -48,11 +49,10 @@ const Navbar = () => {
                 RESUME <i className="fas fa-arrow-right"></i>
               </Button>
             </li>
-
-            <ThemeToggle />
+            <li>
+              <ThemeToggle />
+            </li>
           </ul>
-
-          <Hamburger handleMobileMenu={handleMobileMenu} />
         </div>
       </nav>
     </div>
