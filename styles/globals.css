@@ -210,7 +210,7 @@ body {
 
 /* Footer */
 #footer {
-  background: --bg-secondary-two;
+  background: var(--bg-secondary-two);
 }
 
 #footer .container {
@@ -218,14 +218,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: var(--text-color);
+  color: var(--text-color-two);
   min-height: 160px;
   text-align: center;
 }
 
 #footer a {
   font-size: 0.8rem;
-  color: var(--text-color);
+  color: var(--text-color-two);
 }
 
 #footer a:hover {
