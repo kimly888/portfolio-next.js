@@ -2,6 +2,7 @@ import { useStateContext } from "@/context/StateContext";
 import Hamburger from "../elements/Hamburger";
 import ThemeToggle from "../elements/ThemeToggle";
 import Logo from "../elements/Logo";
+import Button from "../elements/Button";
 
 const Navbar = () => {
   const { isActive, setIsActive } = useStateContext();
@@ -39,13 +40,13 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a
-                className="nav-link btn btn-primary"
-                href="https://github.com/CommunityPro/portfolio-html"
-                onClick={handleMobileMenu}
+              <Button
+                className="nav-link"
+                path="https://github.com/CommunityPro/portfolio-html"
+                type="primary"
               >
                 RESUME <i className="fas fa-arrow-right"></i>
-              </a>
+              </Button>
             </li>
 
             <ThemeToggle />

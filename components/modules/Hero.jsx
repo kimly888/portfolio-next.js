@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "../elements/Button";
 
 const Hero = () => {
   return (
@@ -22,14 +23,13 @@ const Hero = () => {
         </p>
       </div>
 
-      <a
-        href="https://github.com/CommunityPro/portfolio-html"
-        className="btn btn-secondary"
-        target="_blank"
-        rel="noreferrer"
+      <Button
+        path={"https://github.com/CommunityPro/portfolio-html"}
+        type="secondary"
+        target
       >
         Connect With Me
-      </a>
+      </Button>
     </section>
   );
 };

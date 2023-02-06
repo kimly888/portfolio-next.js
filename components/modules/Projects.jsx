@@ -1,5 +1,6 @@
 import ProjectCard from "./ProjectCard";
 import projectData from "../data/projects.json";
+import Button from "../elements/Button";
 
 const Projects = () => {
   return (
@@ -26,9 +27,10 @@ const Projects = () => {
         })}
       </article>
 
-      <a href="#" className="btn btn-secondary" target="_blank">
-        See More <i className="fas fa-arrow-right"></i>
-      </a>
+      <Button path="#" type="secondary">
+        See More
+        <i className="fas fa-arrow-right"></i>
+      </Button>
     </section>
   );
 };
