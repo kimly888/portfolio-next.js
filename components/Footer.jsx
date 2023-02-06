@@ -36,8 +36,8 @@ const Footer = () => {
           </a>
         </div>
         <p>
-          Copyright &copy; Communitypro <span id="datee"></span>, All rights
-          reserved
+          Copyright &copy; Communitypro <span>{new Date().getFullYear()}</span>,
+          All rights reserved
         </p>
       </div>
     </div>
