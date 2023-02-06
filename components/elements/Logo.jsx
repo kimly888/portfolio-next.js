@@ -1,12 +1,13 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Logo = () => {
   return (
     <>
       <h1 id="logo">
-        <a href="https://github.com/CommunityPro/portfolio-html">
+        <Link href="/">
           <Image src="/logo.png" width={25} height={25} alt="Site Logo" />
-        </a>
+        </Link>
       </h1>
     </>
   );
