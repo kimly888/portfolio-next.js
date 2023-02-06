@@ -11,9 +11,9 @@
   /* Colors */
   --primary-color: #ffcd42;
   --secondary-color: #ffd35c;
-  --bg-primary: #ffffff;
+  --bg-primary: #f5f5f5;
   --text-color: #222222;
-  --text-color-two: #ffffff;
+  --text-color-two: #f5f5f5;
   --bg-secondary: #000000;
   --card-background: #f4f4f4;
   --bg-secondary-two: #111111;
@@ -34,10 +34,10 @@
 [data-theme="dark"] {
   --primary-color: #ffcd42;
   --secondary-color: #ffd35c;
-  --bg-primary: #000000;
-  --text-color: #ffffff;
+  --bg-primary: #181818;
+  --text-color: #f5f5f5;
   --text-color-two: #222222;
-  --bg-secondary: #ffffff;
+  --bg-secondary: #f5f5f5;
   --card-background: #111111;
   --bg-secondary-two: #f4f4f4;
   --shadow: 0 2px 10px rgba(95, 95, 95, 0.2);
