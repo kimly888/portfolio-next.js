@@ -1,0 +1,111 @@
+import Head from "next/head";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+
+const Layout = ({ children }) => {
+  return (
+    <>
+      <Head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {/* <!-- Primary Meta Tags --> */}
+        <title>Portfolio Template - Open source</title>
+        <meta name="title" content="Portfolio Template - Open source" />
+        <meta
+          name="description"
+          content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project"
+        />
+
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://github.com/CommunityPro/portfolio-html"
+        />
+        <meta property="og:title" content="Portfolio Template - Open source" />
+        <meta
+          property="og:description"
+          content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project"
+        />
+        <meta
+          property="og:image"
+          content="https://user-images.githubusercontent.com/62628408/150613011-b78a7f5a-0af1-4312-aab0-0022e7258693.png"
+        />
+
+        {/* <!-- Twitter --> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://github.com/CommunityPro/portfolio-html"
+        />
+        <meta
+          property="twitter:title"
+          content="Portfolio Template - Open source"
+        />
+        <meta
+          property="twitter:description"
+          content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project"
+        />
+        <meta
+          property="twitter:image"
+          content="https://user-images.githubusercontent.com/62628408/150613011-b78a7f5a-0af1-4312-aab0-0022e7258693.png"
+        />
+
+        {/* <!-- Link --> */}
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="assets/favicon/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/assets/favicon/favicon-16x16.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="assets/favicon/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href="assets/favicon/android-chrome-192x192.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="512x512"
+          href="assets/favicon/android-chrome-512x512.png"
+        />
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href="assets/favicon/favicon.ico"
+        />
+        <link rel="manifest" href="assets/favicon/site.webmanifest" />
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+          crossorigin="anonymous"
+        />
+      </Head>
+
+      <header id="hero">
+        <Navbar />
+      </header>
+
+      <main>{children}</main>
+
+      <footer>
+        <Footer />
+      </footer>
+    </>
+  );
+};
+export default Layout;
