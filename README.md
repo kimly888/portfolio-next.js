@@ -61,19 +61,31 @@ Before making any changes, ensure you have raised an issue <a href="https://gith
 ## Folder Structure
 
 ```bash
+├── .github
+│   ├── ISSUE_TEMPLATE
+│   │   ├── bug.md
+│   │   ├── feature.md
+│   ├── Pull_request_template.md
 ├── components
-│   ├── Footer.jsx
-│   ├── Hero.jsx
-│   ├── Layout.jsx
-│   ├── Navbar.jsx
-│   ├── Projects.jsx
-│   ├── index.js
+│   ├── data
+│   │   ├── projects.json
+│   ├── elements
+│   │   ├── Button.jsx
+│   │   ├── Hamburger.jsx
+│   │   ├── Logo.jsx
+│   │   ├── ThemeToggle.jsx
+│   ├── layouts
+│   │   ├── Layout.jsx
+│   ├── modules
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProjectCard.jsx
+│   │   ├── Projects.jsx
 ├── context
 │   ├── StateContext.js
-├── context
+├── pages
 │   ├── api
-│   │   ├── style.css
-│   │   ├── utilities.css
 │   ├── _app_.js
 │   ├── _document_.js
 │   ├── index.js
@@ -102,16 +114,11 @@ Before making any changes, ensure you have raised an issue <a href="https://gith
 │   ├── moon.svg
 │   ├── sun.svg
 │   ├── profile-image.svg
-├── .styles
+├── styles
 │   ├── globals.css
 │   ├── utilities.css
-├── .github
-│   ├── ISSUE_TEMPLATE
-│   │   ├── bug.md
-│   │   ├── feature.md
-│   ├── Pull_request_template.md
 ├── eslintrc.json
-└── .gitignore
+├── .gitignore
 ├── jsconfig.json
 ├── next.config.js
 ├── CODE_OF_CONDUCT.md
@@ -120,7 +127,7 @@ Before making any changes, ensure you have raised an issue <a href="https://gith
 ├── package-lock.json
 ├── package.json
 ├── README.md
-├── REQUIREMENTS.md
+└── REQUIREMENTS.md
 ```
 
 <div align="center">
