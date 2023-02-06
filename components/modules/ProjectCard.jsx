@@ -23,10 +23,10 @@ const ProjectCard = ({
         </div>
 
         <div className="project-link">
-          <a href={gitHubLink} target="_blank">
+          <a href={gitHubLink} target="_blank" rel="noreferrer">
             <i className="fab fa-github"></i>
           </a>
-          <a href={siteLink} target="_blank">
+          <a href={siteLink} target="_blank" rel="noreferrer">
             <i className="fas fa-globe"></i>
           </a>
         </div>
