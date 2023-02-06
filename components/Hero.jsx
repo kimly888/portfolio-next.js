@@ -25,6 +25,7 @@ const Hero = () => {
         href="https://github.com/CommunityPro/portfolio-html"
         className="btn btn-secondary"
         target="_blank"
+        rel="noreferrer"
       >
         Connect With Me
       </a>
