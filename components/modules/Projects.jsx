@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard";
+import projectData from "../data/projects.json";
 
 const Projects = () => {
   return (
@@ -10,59 +11,18 @@ const Projects = () => {
       </div>
 
       <article className="project">
-        {/* <!-- Project 1 --> */}
-        <ProjectCard
-          path={"/"}
-          title={"Project One"}
-          caption={"React, Redux, SASS"}
-          gitHubLink={"/"}
-          siteLink={"/"}
-        />
-
-        {/* <!-- Project 2 --> */}
-        <ProjectCard
-          path={"/"}
-          title={"Project Two"}
-          caption={"React, Redux, SASS"}
-          gitHubLink={"/"}
-          siteLink={"/"}
-        />
-
-        {/* <!-- Project 3 --> */}
-        <ProjectCard
-          path={"/"}
-          title={"Project Three"}
-          caption={"React, Redux, SASS"}
-          gitHubLink={"/"}
-          siteLink={"/"}
-        />
-
-        {/* <!-- Project 4 --> */}
-        <ProjectCard
-          path={"/"}
-          title={"Project Four"}
-          caption={"React, Redux, SASS"}
-          gitHubLink={"/"}
-          siteLink={"/"}
-        />
-
-        {/* <!-- Project 5 --> */}
-        <ProjectCard
-          path={"/"}
-          title={"Project Five"}
-          caption={"React, Redux, SASS"}
-          gitHubLink={"/"}
-          siteLink={"/"}
-        />
-
-        {/* <!-- Project 6 --> */}
-        <ProjectCard
-          path={"/"}
-          title={"Project Six"}
-          caption={"React, Redux, SASS"}
-          gitHubLink={"/"}
-          siteLink={"/"}
-        />
+        {projectData?.map((project) => {
+          return (
+            <ProjectCard
+              path={project.path}
+              background={project.background}
+              title={project.title}
+              caption={project.caption}
+              gitHubLink={project.gitHubLink}
+              siteLink={project.siteLink}
+            />
+          );
+        })}
       </article>
 
       <a href="#" className="btn btn-secondary" target="_blank">

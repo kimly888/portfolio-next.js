@@ -134,7 +134,7 @@ Want to customize this template to suit your style, here are a few things you ca
 
 ## 1. Logo
 
-The logo of this template is controlled by line below in the `Navbar.jsx` component, replace the `/logo.png` with your logo link or replace the current logo image located in the public folder with yours and rename it to `logo.png`
+The logo of this template is controlled by line below in the `Logo.jsx` component, replace the `/logo.png` with your logo link or replace the current logo image located in the public folder with yours and rename it to `logo.png`
 
 ```jsx
 <!-- Logo -->

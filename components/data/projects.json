@@ -1,0 +1,50 @@
+[
+  {
+    "path": "/",
+    "background": "/project/project-one.png",
+    "title": "Project One",
+    "caption": "React, Redux, SASS",
+    "gitHubLink": "/",
+    "siteLink": "/"
+  },
+  {
+    "path": "/",
+    "background": "/project/project-two.png",
+    "title": "Project Two",
+    "caption": "React, Redux, SASS",
+    "gitHubLink": "/",
+    "siteLink": "/"
+  },
+  {
+    "path": "/",
+    "background": "/project/project-three.png",
+    "title": "Project Three",
+    "caption": "React, Redux, SASS",
+    "gitHubLink": "/",
+    "siteLink": "/"
+  },
+  {
+    "path": "/",
+    "background": "/project/project-four.png",
+    "title": "Project Four",
+    "caption": "React, Redux, SASS",
+    "gitHubLink": "/",
+    "siteLink": "/"
+  },
+  {
+    "path": "/",
+    "background": "/project/project-five.png",
+    "title": "Project Five",
+    "caption": "React, Redux, SASS",
+    "gitHubLink": "/",
+    "siteLink": "/"
+  },
+  {
+    "path": "/",
+    "background": "/project/project-six.png",
+    "title": "Project Six",
+    "caption": "React, Redux, SASS",
+    "gitHubLink": "/",
+    "siteLink": "/"
+  }
+]

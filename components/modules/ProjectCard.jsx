@@ -10,11 +10,11 @@ const ProjectCard = ({
     <div
       href={path}
       className="card"
-      // style={{
-      //   backgroundImage: `url(${background})`,
-      //   backgroundPosition: "center center",
-      //   backgroundSize: "cover",
-      // }}
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+      }}
     >
       <div className="project-info">
         <div className="project-bio">
