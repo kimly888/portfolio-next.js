@@ -22,8 +22,8 @@
 <img src="https://img.shields.io/github/labels/Communitypro/portfolio-html/enhancement">
 </a>
 
-<a href="https://app.netlify.com/sites/cpro-portfolio-html/deploys">
-    <img src="https://api.netlify.com/api/v1/badges/d831b80b-40d4-473a-b552-13055a16a6da/deploy-status">
+<a href="https://https://vercel.com/kimly888/portfolio-next-js/deployments">
+    <img src="https://img.shields.io/github/deployments/kimly888/portfolio-next.js/production?label=vercel&logo=vercel&logoColor=white">
 </a>
 </p>
 
@@ -342,19 +342,19 @@ We are using plain `CSS` for this project and you can find that in the styles fo
 <tr>
 <!-- Start of column-1 -->
 <td>
-  <a href="https://cpro-portfolio-html.netlify.app/">
+  <a href="https://portfolio-next-js-lake-five.vercel.app/">
     <img src="https://user-images.githubusercontent.com/62628408/150613011-b78a7f5a-0af1-4312-aab0-0022e7258693.png" width="100px"> <br/>
     <sub>Example 1</sub>
   </a>
 </td>
 <!-- End of column-1 -->
- <!-- Start of column-2 -->
+ <!-- Start of column-2
 <td>
-  <a href="https://cpro-portfolio-html.netlify.app/">
+  <a href="https://portfolio-next-js-lake-five.vercel.app/">
     <img src="https://user-images.githubusercontent.com/62628408/150613011-b78a7f5a-0af1-4312-aab0-0022e7258693.png" width="100px"> <br/>
     <sub>Example 2</sub>
   </a>
-</td>
+</td> -->
 </tr>
 </table>
 
