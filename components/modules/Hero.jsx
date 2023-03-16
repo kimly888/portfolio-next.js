@@ -17,16 +17,12 @@ const Hero = () => {
       <div className="content-text">
         <h2>Building digital experiences</h2>
         <p>
-          I'm a Fullstack Developer with experience in web design and creating
-          databases/servers.
+          I'm a Fullstack Developer with experience in end-to-end web
+          application development.
         </p>
       </div>
 
-      <Button
-        path={"https://github.com/CommunityPro/portfolio-html"}
-        type="secondary"
-        target
-      >
+      <Button path={"https://github.com/kimly888"} type="secondary" target>
         Dig into my universe
       </Button>
     </section>
