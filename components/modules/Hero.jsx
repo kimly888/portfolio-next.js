@@ -7,19 +7,18 @@ const Hero = () => {
       {/* <!-- Profile Image -->  */}
       <Image
         className="profile-image"
-        src="/profile-image.svg"
+        src="/profile-image.jpg"
         width={150}
         height={150}
         alt="profile picture"
       />
-      <h1>Hi I'm Jessica</h1>
+      <h1>Hi!👋 I'm Kim, and I love</h1>
 
       <div className="content-text">
-        <h2>Building digital</h2>
-        <h2>products, brands, and experience.</h2>
+        <h2>Building digital experiences</h2>
         <p>
-          A Frontend Developer and Visual Designer with experience in web
-          design, brand identity and product design.
+          I'm a Fullstack Developer with experience in web design and creating
+          databases/servers.
         </p>
       </div>
 
@@ -28,7 +27,7 @@ const Hero = () => {
         type="secondary"
         target
       >
-        Connect With Me
+        Dig into my universe
       </Button>
     </section>
   );
