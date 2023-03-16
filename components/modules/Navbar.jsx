@@ -29,22 +29,22 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a className="nav-link" href="#" onClick={handleMobileMenu}>
+              <a className="nav-link" href="#footer" onClick={handleMobileMenu}>
                 Contact
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="nav-link" href="#" onClick={handleMobileMenu}>
                 Blog
               </a>
-            </li>
+            </li> */}
             <li>
               <Button
                 className="nav-link"
                 path="https://flowcv.com/resume/n1aquwk0cr"
                 type="primary"
               >
-                Resume <i className="fas fa-arrow-right"></i>
+                Resume&nbsp;&nbsp;<i className="fas fa-download"></i>
               </Button>
             </li>
             <li>

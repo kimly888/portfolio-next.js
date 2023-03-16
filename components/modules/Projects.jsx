@@ -27,10 +27,10 @@ const Projects = () => {
         })}
       </article>
 
-      <Button path="#" type="secondary">
+      {/* <Button path="#" type="secondary">
         See More
         <i className="fas fa-arrow-right"></i>
-      </Button>
+      </Button> */}
     </section>
   );
 };

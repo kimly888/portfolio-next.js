@@ -4,26 +4,26 @@ const Footer = () => {
   return (
     <div id="footer">
       <div className="container">
-        <a href="mailto:communitypro47@gmail.com">communitypro47@gmail.com</a>
+        <a href="mailto:kimly.dev@gmail.com">kimly.dev@gmail.com</a>
         {/* <!-- Social links --> */}
         <div className="social">
-          <a href="#" target="_blank">
+          {/* <a href="#" target="_blank">
             <Image
               src="/facebook-icon.svg"
               width={20}
               height={20}
               alt="Facebook"
             />
-          </a>
-          <a href="#" target="_blank">
+          </a> */}
+          {/* <a href="#" target="_blank">
             <Image
               src="/twitter-icon.svg"
               width={20}
               height={20}
               alt="Twitter"
             />
-          </a>
-          <a href="#" target="_blank">
+          </a> */}
+          <a href="https://www.linkedin.com/in/kimly888/" target="_blank">
             <Image
               src="/linkedin-icon.svg"
               width={20}
@@ -31,17 +31,17 @@ const Footer = () => {
               alt="Linkedin"
             />
           </a>
-          <a href="#" target="_blank">
+          <a href="https://github.com/kimly888" target="_blank">
             <Image src="/github-icon.svg" width={20} height={20} alt="GitHub" />
           </a>
-          <a href="#" target="_blank">
+          {/* <a href="#" target="_blank">
             <Image
               src="/hashnode-icon.svg"
               width={20}
               height={20}
               alt="Hashnode"
             />
-          </a>
+          </a> */}
         </div>
         {/* <!-- Attribution --> */}
         <div className="attribution">
