@@ -7,9 +7,7 @@ import Button from "../elements/Button";
 const Navbar = () => {
   const { isActive, setIsActive } = useStateContext();
 
-  const handleMobileMenu = () => {
-    setIsActive((prev) => !prev);
-  };
+  const handleMobileMenu = () => setIsActive((prev) => !prev);
 
   return (
     <div>
@@ -27,26 +25,26 @@ const Navbar = () => {
                 href="#projects"
                 onClick={handleMobileMenu}
               >
-                PROJECTS
+                Projects
               </a>
             </li>
             <li>
               <a className="nav-link" href="#" onClick={handleMobileMenu}>
-                CONTACT
+                Contact
               </a>
             </li>
             <li>
               <a className="nav-link" href="#" onClick={handleMobileMenu}>
-                BlOG
+                Blog
               </a>
             </li>
             <li>
               <Button
                 className="nav-link"
-                path="https://github.com/CommunityPro/portfolio-html"
+                path="https://flowcv.com/resume/n1aquwk0cr"
                 type="primary"
               >
-                RESUME <i className="fas fa-arrow-right"></i>
+                Resume <i className="fas fa-arrow-right"></i>
               </Button>
             </li>
             <li>
