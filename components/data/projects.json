@@ -1,50 +1,42 @@
 [
   {
-    "path": "/",
-    "background": "/project/project-one.png",
-    "title": "Project One",
-    "caption": "React, Redux, SASS",
-    "gitHubLink": "/",
-    "siteLink": "/"
+    "path": "/polyzero",
+    "background": "/project/polyzero.png",
+    "title": "PolyZero",
+    "caption": "React, JavaScript, Tailwind CSS, Firebase, Stripe... ",
+    "gitHubLink": "https://github.com/poly-zero/polyzero",
+    "siteLink": "https://polyzero.earth/"
   },
   {
-    "path": "/",
-    "background": "/project/project-two.png",
-    "title": "Project Two",
-    "caption": "React, Redux, SASS",
-    "gitHubLink": "/",
-    "siteLink": "/"
+    "path": "/kanjify",
+    "background": "/project/kanjify.png",
+    "title": "Kanjify",
+    "caption": "Next.js, React, JavaScript, Express, Node.js",
+    "gitHubLink": "https://github.com/kimly888/Kanjify",
+    "siteLink": "https://kanjify.vercel.app/"
   },
   {
-    "path": "/",
-    "background": "/project/project-three.png",
-    "title": "Project Three",
-    "caption": "React, Redux, SASS",
-    "gitHubLink": "/",
-    "siteLink": "/"
+    "path": "/lynx",
+    "background": "/project/lynx.png",
+    "title": "Lynx",
+    "caption": "React, TypeScript, styled-components...",
+    "gitHubLink": "https://github.com/lynx-earth/website",
+    "siteLink": "https://lynx.earth/"
   },
   {
-    "path": "/",
-    "background": "/project/project-four.png",
-    "title": "Project Four",
-    "caption": "React, Redux, SASS",
-    "gitHubLink": "/",
-    "siteLink": "/"
+    "path": "/wordvision",
+    "background": "/project/wordvision.png",
+    "title": "WordVision",
+    "caption": "React, TypeScript, MongoDB, Express, Node.js, Tailwind CSS...",
+    "gitHubLink": "https://github.com/kimly888/WordVision",
+    "siteLink": "https://word-vision.vercel.app/"
   },
   {
-    "path": "/",
-    "background": "/project/project-five.png",
-    "title": "Project Five",
-    "caption": "React, Redux, SASS",
-    "gitHubLink": "/",
-    "siteLink": "/"
-  },
-  {
-    "path": "/",
-    "background": "/project/project-six.png",
-    "title": "Project Six",
-    "caption": "React, Redux, SASS",
-    "gitHubLink": "/",
-    "siteLink": "/"
+    "path": "/portfolio-nextjs",
+    "background": "/project/portfolio-nextjs.png",
+    "title": "Portfolio-Next.js",
+    "caption": "Next.js, React, JavaScript, CSS3...",
+    "gitHubLink": "https://github.com/kimly888/portfolio-next.js",
+    "siteLink": "https://portfolio-next-js-kimly888.vercel.app/"
   }
 ]
