@@ -316,8 +316,9 @@ body {
   margin: 0 0.5rem;
 }
 
-#footer p {
-  font-size: 0.8rem;
+#footer p,
+#footer a {
+  font-size: 1rem;
 }
 
 /* Responsiveness */
