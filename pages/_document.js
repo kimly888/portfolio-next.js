@@ -1,5 +1,5 @@
-import { Html, Head, Main, NextScript } from "next/document";
 import Loader from "@/components/elements/Loader";
+import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
@@ -11,9 +11,7 @@ export default function Document() {
           integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
           crossorigin="anonymous"
         />
-        <head>
-          <style>{Loader}</style>
-        </head>
+        <style>{Loader}</style>
       </Head>
 
       <body>

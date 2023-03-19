@@ -1,3 +1,4 @@
+import Image from "next/image";
 import techStackData from "../data/tech-stack.json";
 
 const Stack = () => {
@@ -16,15 +17,25 @@ const Stack = () => {
         <div className="slide-track">
           {techStackData?.map((tech, index) => {
             return (
-              <div className="slide">
-                <img key={index} src={tech.background} alt={tech.title} />
+              <div className="slide" key={index}>
+                <Image
+                  src={tech.background}
+                  alt={tech.title}
+                  width={500}
+                  height={500}
+                />
               </div>
             );
           })}
           {techStackData?.map((tech, index) => {
             return (
-              <div className="slide">
-                <img key={index} src={tech.background} alt={tech.title} />
+              <div className="slide" key={index}>
+                <Image
+                  src={tech.background}
+                  alt={tech.title}
+                  width={500}
+                  height={500}
+                />
               </div>
             );
           })}

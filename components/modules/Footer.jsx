@@ -23,7 +23,11 @@ const Footer = () => {
               alt="Twitter"
             />
           </a> */}
-          <a href="https://www.linkedin.com/in/kimly888/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/kimly888/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src="/linkedin-icon.svg"
               width={20}
@@ -31,7 +35,11 @@ const Footer = () => {
               alt="Linkedin"
             />
           </a>
-          <a href="https://github.com/kimly888" target="_blank">
+          <a
+            href="https://github.com/kimly888"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image src="/github-icon.svg" width={20} height={20} alt="GitHub" />
           </a>
           {/* <a href="#" target="_blank">
