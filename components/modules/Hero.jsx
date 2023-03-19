@@ -15,11 +15,7 @@ const Hero = () => {
       <h1>Hi!👋 I'm Kim, and I love</h1>
 
       <div className="content-text">
-        <h2>Building digital experiences</h2>
-        <p>
-          I'm a Fullstack Developer with experience in end-to-end web
-          application development.
-        </p>
+        <h2>Building modern digital experiences.</h2>
       </div>
 
       <Button path={"https://github.com/kimly888"} type="secondary" target>

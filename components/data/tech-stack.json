@@ -1,0 +1,46 @@
+[
+  {
+    "title": "react",
+    "background": "/tech-stack/react.png"
+  },
+  {
+    "title": "next.js",
+    "background": "/tech-stack/next.png"
+  },
+  {
+    "title": "javascript",
+    "background": "/tech-stack/javascript.png"
+  },
+  {
+    "title": "typescript",
+    "background": "/tech-stack/typescript.png"
+  },
+  {
+    "title": "node.js",
+    "background": "/tech-stack/node.png"
+  },
+  {
+    "title": "express",
+    "background": "/tech-stack/express.png"
+  },
+  {
+    "title": "html",
+    "background": "/tech-stack/html.png"
+  },
+  {
+    "title": "css",
+    "background": "/tech-stack/css.png"
+  },
+  {
+    "title": "tailwind css",
+    "background": "/tech-stack/tailwind.png"
+  },
+  {
+    "title": "mongoDB",
+    "background": "/tech-stack/mongo.png"
+  },
+  {
+    "title": "vercel",
+    "background": "/tech-stack/vercel.png"
+  }
+]

@@ -164,6 +164,67 @@ body {
   background-color: var(--card-background);
   margin: 5.5rem 0;
 }
+
+/* Tech Stack */
+
+.tech-stack img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.slider {
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider::before,
+.slider::after {
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slide-track {
+  animation: scroll 50s linear infinite;
+  display: flex;
+  gap: 50px;
+  width: calc(250px * 14);
+}
+
+.slide {
+  height: 100px;
+  width: 250px;
+}
+
+.track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-450px * 7));
+  }
+}
+
 /* Projects */
 #projects {
   display: flex;
