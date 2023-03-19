@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Raleway } from "@next/font/google";
 import Layout from "@/components/layouts/Layout";
 import { StateContext } from "@/context/StateContext";
@@ -12,6 +13,13 @@ const raleway = Raleway({
 });
 
 export default function App({ Component, pageProps }) {
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const loader = document.getElementById("globalLoader");
+      if (loader) loader.style.display = "none";
+    }
+  }, []);
+
   return (
     <div className={raleway.className}>
       <StateContext>
